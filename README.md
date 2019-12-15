@@ -3,6 +3,9 @@
 task:
 https://github.com/aramcoinnovations/technathon2019/tree/master/challenge3?roistat_visit=32528
 
+event:
+https://codenrock.com/contests/155#/nominations/207
+
 How to work with parsed data from pdf plots.
 
 ## Subtask 1. Plots
