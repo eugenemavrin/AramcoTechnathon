@@ -2,8 +2,8 @@ close all
 clear all
 
 STEP = 1;
-a_bound = 1160;
-b_bound = 2060;
+% a_bound = 1160;
+% b_bound = 2060;
 
 %%%%%%
 
@@ -19,6 +19,9 @@ for k=1:length(alldata)
     ds = textscan(fid, '%u %u %u %u');
     fclose(fid);
     ds = double([ds{1} ds{2} ds{3} ds{4}]);
+    
+    a_bound = ds(3);
+    b_bound = ds(4);
     
     dsr = ds(2) - ds(1);
 
